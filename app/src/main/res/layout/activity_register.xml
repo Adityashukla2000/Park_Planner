@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+  <TextView
+      android:textSize="30sp"
+      android:layout_marginTop="130dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Welcome"/>
+
+  <EditText
+      android:id="@+id/userName"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:hint="Username"
+      android:layout_marginTop="40dp"
+      android:padding="8dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      ></EditText>
+
+  <EditText
+      android:id="@+id/emailId"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:hint="Email id"
+      android:layout_marginTop="10dp"
+      android:padding="8dp"
+      android:inputType="textEmailAddress"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      ></EditText>
+
+  <EditText
+      android:id="@+id/passwordIn"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:hint="Password"
+      android:padding="8dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:inputType="textEmailAddress"
+      ></EditText>
+
+  <EditText
+      android:id="@+id/conPass"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:hint="Confirm password"
+      android:padding="8dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:inputType="textEmailAddress"
+      ></EditText>
+
+  <Button
+      android:id="@+id/registerBtn"
+      android:text="Register"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      ></Button>
+
+  <Button
+      android:id="@+id/finalLoginBtn"
+      android:text="Login"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      ></Button>
+
+
+
+
+</LinearLayout>
